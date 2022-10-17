@@ -641,8 +641,14 @@ body {
     padding-top: 100px;
     padding-bottom: 37px;
   }
+  .aboutUs__main-text {
+    display: flex;
+  }
   .aboutUs__main-text-first {
     max-width: 386px;
+  }
+  .aboutUs__main-text-second {
+    padding-top: 200px;
   }
   .aboutUs__contacts-inner {
     position: relative;
@@ -692,6 +698,9 @@ body {
   }
   .aboutUs__main-text-first {
     max-width: 328px;
+  }
+  .aboutUs__main-text-second {
+    padding-top: 300px;
   }
   .aboutUs__mission {
     padding: 0 15px;
@@ -1012,6 +1021,15 @@ body {
     transform: rotate(-105deg);
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  .aboutUs__main-text {
+    display: block;
+  }
+  .aboutUs__main-text-first {
+    max-width: 386px;
+  }
+  .aboutUs__main-text-second {
+    padding-top: 0;
   }
   .aboutUs__main-text {
     font-size: 16px;
